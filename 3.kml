@@ -115,7 +115,7 @@
         <range>500.6566641072245</range>
       </LookAt>
       <Placemark>
-        <name>Simple placemark</name>
+        <name>xxx Simple placemark</name>
         <description>Attached to the ground. Intelligently places itself at the
           height of the underlying terrain.</description>
         <Point>
