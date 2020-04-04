@@ -1,0 +1,1126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>KML Export 4/4/2020 3:19:50 PM</name>
+    <Style id="style_emergency">
+      <IconStyle>
+        <colorMode>normal</colorMode>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text>&lt;table&gt;&lt;tr&gt;&lt;td&gt;Id&lt;/td&gt;&lt;td&gt; $[Id] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Time&lt;/td&gt;&lt;td&gt; $[Time] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Time UTC&lt;/td&gt;&lt;td&gt; $[Time UTC] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt; $[Name] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Map Display Name&lt;/td&gt;&lt;td&gt; $[Map Display Name] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Device Type&lt;/td&gt;&lt;td&gt; $[Device Type] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;IMEI&lt;/td&gt;&lt;td&gt; $[IMEI] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Incident Id&lt;/td&gt;&lt;td&gt; $[Incident Id] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Latitude&lt;/td&gt;&lt;td&gt; $[Latitude] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Longitude&lt;/td&gt;&lt;td&gt; $[Longitude] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Elevation&lt;/td&gt;&lt;td&gt; $[Elevation] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Velocity&lt;/td&gt;&lt;td&gt; $[Velocity] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Course&lt;/td&gt;&lt;td&gt; $[Course] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Valid GPS Fix&lt;/td&gt;&lt;td&gt; $[Valid GPS Fix] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;In Emergency&lt;/td&gt;&lt;td&gt; $[In Emergency] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Text&lt;/td&gt;&lt;td&gt; $[Text] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Event&lt;/td&gt;&lt;td&gt; $[Event] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;SpatialRefSystem&lt;/td&gt;&lt;td&gt; $[SpatialRefSystem] &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="style_1345100">
+      <IconStyle>
+        <color>ffff5500</color>
+        <colorMode>normal</colorMode>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text>&lt;table&gt;&lt;tr&gt;&lt;td&gt;Id&lt;/td&gt;&lt;td&gt; $[Id] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Time&lt;/td&gt;&lt;td&gt; $[Time] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Time UTC&lt;/td&gt;&lt;td&gt; $[Time UTC] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt; $[Name] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Map Display Name&lt;/td&gt;&lt;td&gt; $[Map Display Name] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Device Type&lt;/td&gt;&lt;td&gt; $[Device Type] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;IMEI&lt;/td&gt;&lt;td&gt; $[IMEI] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Incident Id&lt;/td&gt;&lt;td&gt; $[Incident Id] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Latitude&lt;/td&gt;&lt;td&gt; $[Latitude] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Longitude&lt;/td&gt;&lt;td&gt; $[Longitude] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Elevation&lt;/td&gt;&lt;td&gt; $[Elevation] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Velocity&lt;/td&gt;&lt;td&gt; $[Velocity] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Course&lt;/td&gt;&lt;td&gt; $[Course] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Valid GPS Fix&lt;/td&gt;&lt;td&gt; $[Valid GPS Fix] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;In Emergency&lt;/td&gt;&lt;td&gt; $[In Emergency] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Text&lt;/td&gt;&lt;td&gt; $[Text] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Event&lt;/td&gt;&lt;td&gt; $[Event] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;SpatialRefSystem&lt;/td&gt;&lt;td&gt; $[SpatialRefSystem] &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="waypointstyle_1345100">
+      <IconStyle>
+        <color>ffff5500</color>
+        <colorMode>normal</colorMode>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text>&lt;table&gt;&lt;tr&gt;&lt;td&gt;Time&lt;/td&gt;&lt;td&gt; $[Time] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Time UTC&lt;/td&gt;&lt;td&gt; $[Time UTC] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Latitude&lt;/td&gt;&lt;td&gt; $[Latitude] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Longitude&lt;/td&gt;&lt;td&gt; $[Longitude] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Text&lt;/td&gt;&lt;td&gt; $[Text] &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="linestyle_1345100">
+      <LineStyle>
+        <color>ffff5500</color>
+        <colorMode>normal</colorMode>
+        <width>1</width>
+        <labelVisibility xmlns="http://www.google.com/kml/ext/2.2">false</labelVisibility>
+      </LineStyle>
+    </Style>
+    <Folder>
+      <name>Donald Britton</name>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2020-03-02T12:40:00Z</when>
+        </TimeStamp>
+        <styleUrl>#style_1345100</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>72357029</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>3/2/2020 12:40:00 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>3/2/2020 7:40:00 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Device Type">
+            <value>inReach Explorer Plus</value>
+          </Data>
+          <Data name="IMEI">
+            <value>300434031381000</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>39.008781</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.273861</value>
+          </Data>
+          <Data name="Elevation">
+            <value>149.01 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0.0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0.00 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>True</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking turned on from device.</value>
+          </Data>
+          <Data name="SpatialRefSystem">
+            <value>WGS84</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-77.273861,39.008781,149.01</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2020-03-02T12:43:00Z</when>
+        </TimeStamp>
+        <styleUrl>#style_1345100</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>72357058</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>3/2/2020 12:43:00 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>3/2/2020 7:43:00 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Device Type">
+            <value>inReach Explorer Plus</value>
+          </Data>
+          <Data name="IMEI">
+            <value>300434031381000</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>39.008663</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.273926</value>
+          </Data>
+          <Data name="Elevation">
+            <value>114.00 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0.0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0.00 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>True</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Location received.</value>
+          </Data>
+          <Data name="SpatialRefSystem">
+            <value>WGS84</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-77.273926,39.008663,114</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2020-03-02T12:50:00Z</when>
+        </TimeStamp>
+        <styleUrl>#style_1345100</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>72358598</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>3/2/2020 12:50:00 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>3/2/2020 7:50:00 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Device Type">
+            <value>inReach Explorer Plus</value>
+          </Data>
+          <Data name="IMEI">
+            <value>300434031381000</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>39.008706</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.274013</value>
+          </Data>
+          <Data name="Elevation">
+            <value>112.21 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0.0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0.00 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>True</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+          <Data name="SpatialRefSystem">
+            <value>WGS84</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-77.274013,39.008706,112.21</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2020-03-02T13:21:00Z</when>
+        </TimeStamp>
+        <styleUrl>#style_1345100</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>72372228</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>3/2/2020 1:21:00 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>3/2/2020 8:21:00 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Device Type">
+            <value>inReach Explorer Plus</value>
+          </Data>
+          <Data name="IMEI">
+            <value>300434031381000</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>39.011786</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.272360</value>
+          </Data>
+          <Data name="Elevation">
+            <value>97.93 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>57.0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>67.50 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>True</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+          <Data name="SpatialRefSystem">
+            <value>WGS84</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-77.27236,39.011786,97.93</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2020-03-02T13:31:00Z</when>
+        </TimeStamp>
+        <styleUrl>#style_1345100</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>72372325</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>3/2/2020 1:31:00 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>3/2/2020 8:31:00 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Device Type">
+            <value>inReach Explorer Plus</value>
+          </Data>
+          <Data name="IMEI">
+            <value>300434031381000</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>38.968656</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.254078</value>
+          </Data>
+          <Data name="Elevation">
+            <value>87.73 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>62.1 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>157.50 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>True</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+          <Data name="SpatialRefSystem">
+            <value>WGS84</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-77.254078,38.968656,87.73</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2020-03-02T13:41:00Z</when>
+        </TimeStamp>
+        <styleUrl>#style_1345100</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>72372519</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>3/2/2020 1:41:00 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>3/2/2020 8:41:00 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Device Type">
+            <value>inReach Explorer Plus</value>
+          </Data>
+          <Data name="IMEI">
+            <value>300434031381000</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>38.952155</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.264335</value>
+          </Data>
+          <Data name="Elevation">
+            <value>130.60 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0.0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0.00 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>True</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+          <Data name="SpatialRefSystem">
+            <value>WGS84</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-77.264335,38.952155,130.6</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2020-03-02T13:51:00Z</when>
+        </TimeStamp>
+        <styleUrl>#style_1345100</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>72372608</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>3/2/2020 1:51:00 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>3/2/2020 8:51:00 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Device Type">
+            <value>inReach Explorer Plus</value>
+          </Data>
+          <Data name="IMEI">
+            <value>300434031381000</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>38.924593</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.237535</value>
+          </Data>
+          <Data name="Elevation">
+            <value>130.60 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0.0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0.00 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>True</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+          <Data name="SpatialRefSystem">
+            <value>WGS84</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-77.237535,38.924593,130.6</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2020-03-02T14:01:00Z</when>
+        </TimeStamp>
+        <styleUrl>#style_1345100</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>72386631</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>3/2/2020 2:01:00 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>3/2/2020 9:01:00 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Device Type">
+            <value>inReach Explorer Plus</value>
+          </Data>
+          <Data name="IMEI">
+            <value>300434031381000</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>38.923820</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.229510</value>
+          </Data>
+          <Data name="Elevation">
+            <value>173.59 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0.0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>22.50 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>True</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+          <Data name="SpatialRefSystem">
+            <value>WGS84</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-77.22951,38.92382,173.59</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2020-03-02T15:59:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_1345100</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>72386632</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>3/2/2020 3:59:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>3/2/2020 10:59:15 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Device Type">
+            <value>inReach Explorer Plus</value>
+          </Data>
+          <Data name="IMEI">
+            <value>300434031381000</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>38.923273</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.229873</value>
+          </Data>
+          <Data name="Elevation">
+            <value>218.77 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>2.0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>45.00 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>True</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+          <Data name="SpatialRefSystem">
+            <value>WGS84</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-77.229873,38.923273,218.77</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2020-03-02T16:09:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_1345100</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>72387366</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>3/2/2020 4:09:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>3/2/2020 11:09:15 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Device Type">
+            <value>inReach Explorer Plus</value>
+          </Data>
+          <Data name="IMEI">
+            <value>300434031381000</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>38.918766</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.228843</value>
+          </Data>
+          <Data name="Elevation">
+            <value>163.34 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0.0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0.00 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>True</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+          <Data name="SpatialRefSystem">
+            <value>WGS84</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-77.228843,38.918766,163.34</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2020-03-02T16:19:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_1345100</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>72388483</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>3/2/2020 4:19:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>3/2/2020 11:19:15 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Device Type">
+            <value>inReach Explorer Plus</value>
+          </Data>
+          <Data name="IMEI">
+            <value>300434031381000</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>38.918756</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.228843</value>
+          </Data>
+          <Data name="Elevation">
+            <value>161.29 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0.0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0.00 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>True</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+          <Data name="SpatialRefSystem">
+            <value>WGS84</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-77.228843,38.918756,161.29</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2020-03-02T16:34:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_1345100</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>72391360</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>3/2/2020 4:34:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>3/2/2020 11:34:15 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Device Type">
+            <value>inReach Explorer Plus</value>
+          </Data>
+          <Data name="IMEI">
+            <value>300434031381000</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>38.918616</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.230045</value>
+          </Data>
+          <Data name="Elevation">
+            <value>149.01 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>30.1 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>247.50 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>True</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+          <Data name="SpatialRefSystem">
+            <value>WGS84</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-77.230045,38.918616,149.01</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2020-03-02T16:44:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_1345100</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>72391808</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>3/2/2020 4:44:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>3/2/2020 11:44:15 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Device Type">
+            <value>inReach Explorer Plus</value>
+          </Data>
+          <Data name="IMEI">
+            <value>300434031381000</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>38.921320</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.235388</value>
+          </Data>
+          <Data name="Elevation">
+            <value>134.69 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0.0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0.00 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>True</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+          <Data name="SpatialRefSystem">
+            <value>WGS84</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-77.235388,38.92132,134.69</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2020-03-02T16:54:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_1345100</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>72393768</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>3/2/2020 4:54:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>3/2/2020 11:54:15 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Device Type">
+            <value>inReach Explorer Plus</value>
+          </Data>
+          <Data name="IMEI">
+            <value>300434031381000</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>38.921298</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.235346</value>
+          </Data>
+          <Data name="Elevation">
+            <value>136.73 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0.0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0.00 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>True</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+          <Data name="SpatialRefSystem">
+            <value>WGS84</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-77.235346,38.921298,136.73</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Donald Britton</name>
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2020-03-02T18:35:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_1345100</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>72407733</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>3/2/2020 6:35:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>3/2/2020 1:35:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>Donald Britton</value>
+          </Data>
+          <Data name="Device Type">
+            <value>inReach Explorer Plus</value>
+          </Data>
+          <Data name="IMEI">
+            <value>300434031381000</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>38.921813</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.236333</value>
+          </Data>
+          <Data name="Elevation">
+            <value>132.64 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>30.1 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>315.00 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>True</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+          <Data name="SpatialRefSystem">
+            <value>WGS84</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-77.236333,38.921813,132.64</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Donald Britton</name>
+        <visibility>true</visibility>
+        <description>Donald Britton's track log</description>
+        <styleUrl>#linestyle_1345100</styleUrl>
+        <LineString>
+          <tessellate>true</tessellate>
+          <coordinates>-77.273861,39.008781,149.01
+-77.273926,39.008663,114
+-77.274013,39.008706,112.21
+-77.27236,39.011786,97.93
+-77.254078,38.968656,87.73
+-77.264335,38.952155,130.6
+-77.237535,38.924593,130.6
+-77.22951,38.92382,173.59
+-77.229873,38.923273,218.77
+-77.228843,38.918766,163.34
+-77.228843,38.918756,161.29
+-77.230045,38.918616,149.01
+-77.235388,38.92132,134.69
+-77.235346,38.921298,136.73
+-77.236333,38.921813,132.64</coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
